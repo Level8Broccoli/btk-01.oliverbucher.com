@@ -1,48 +1,111 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+	<title>BTK 01</title>
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2
-						<aside class="notes">
-						<p>Some notes</p>
-						</aside>
-						<p>Some slide text</p>
-						<aside class="notes">
-						<p>and some more notes</p>
-					</aside>
-				</section>
-			</div>
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/black.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-markdown>
+				<script type="text/template">
+				## Robusteres CSS-Framework durch intrinsisches Web Design
+				</script>
+			</section>
+
+			<section data-markdown>
+				<script type="text/template">
+				### Einleitung
+
+				- basierend auf Semesterarbeit
+				- intrinsisches CSS-Framework
+				- messbare Verbesserung
+				</script>
+			</section>
+
+			<section data-markdown>
+				<script type="text/template">
+					### Herleitung des wissenschaftlichen Bezuges
+
+					- Complexity Metrics
+					- Metric for Abstraction
+					- diverse Tools
+					- Abwesenheit von Benchmarks
+				</script>
+			</section>
+
+			<section data-markdown>
+				<script type="text/template">
+					### Formulierung der zentralen Problem- bzw. Fragestellungen
+
+					- Veraltete CSS-Ansätze
+					- Instabile Layouts
+					- Fehleranfällig
+					- Seiteneffekte
+				</script>
+			</section>
+
+			<section data-markdown>
+				<script type="text/template">
+					### Umriss des Vorgehens und der Argumentationskette
+
+					- Messbare Faktoren
+					- Intrinsisches Framework erstellen
+					- Webseiten-Generator erstellen
+					- Vergleich mit Bootstrap Framework
+				</script>
+			</section>
+
+			<section data-markdown>
+				<script type="text/template">
+					### Skizzierung der zu erwartenden Ergebnisse
+
+					- Robuste Komponenten
+					- Semantik
+					- Developer-experience
+					- Performance
+				</script>
+			</section>
+
+			<section data-markdown>
+				<script type="text/template">
+					### Angabe der verwendeten Literatur
+
+					- Intrinsisches Web Design / Komposition
+					- Analyse von CSS Projekten (inkl. Entwicklung von Tools)
+					- Metriken
+					- Schnittstelle zwischen Design und Code
+				</script>
+			</section>
 		</div>
+	</div>
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
 </html>
